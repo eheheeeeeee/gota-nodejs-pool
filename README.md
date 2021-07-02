@@ -3,8 +3,15 @@ gota-nodejs-pool
 
 High performance Node.js (with native C addons) mining pool for **Gota Network**.
 
+### **Attention! This pool only works with LEGACY ADDRESSES**
+A legacy address is created as follows:
+```
+./walletd --create-wallet --wallet-type=legacy --wallet-file=/PATH/TO/mygota.wallet
+```
+
 #### Table of Contents
 - [gota-nodejs-pool](#gota-nodejs-pool)
+    - [**Attention! This pool only works with LEGACY ADDRESSES**](#attention-this-pool-only-works-with-legacy-addresses)
       - [Table of Contents](#table-of-contents)
 - [Features](#features)
       - [Optimized pool server](#optimized-pool-server)
